@@ -30,17 +30,25 @@
 
 ## 二、下载本补丁
 
-两种方式，选一种即可：
+三种方式，选一种即可（内容完全一致）：
 
-**方式 A：下载 ZIP（推荐，简单）**
+**方式 A：从 Releases 下载（推荐，最简单）**
 
-在上方 **code**绿色小按钮，点击后下载最新版的 `(zip)`，解压。
+打开 **[最新版本 Releases](https://github.com/haool871/limbus-zh-10ch/releases/latest)**，
+下载 `Limbus-zh-10ch-v1-patch.zip` 并解压。
 
-**方式 B：直接克隆**
+**方式 B：下载仓库 ZIP**
+
+在上方 **code** 绿色小按钮，点击后下载最新版的 `(zip)`，解压，取里面的 `patch/` 文件夹。
+
+**方式 C：直接克隆**
 
 ```bash
 git clone https://github.com/haool871/limbus-zh-10ch.git
 ```
+
+> 版本对应关系见 [CHANGELOG](CHANGELOG.md)：当前 **v1** 对应游戏 build 25472760。
+> 游戏更新后原文若变化，旧版本补丁可能不再适用。
 
 ---
 
@@ -69,18 +77,24 @@ LimbusCompany_Data/Lang/LLC_zh-CN/
 
 ### 第 3 步：把补丁复制进去
 
+> 方式 A 解压出来的文件夹**本身就是补丁内容**（里面有 `StoryData`、`RPGSystem` 等文件夹）；
+> 方式 B/C 请用仓库里的 `patch/` 文件夹。下面统一叫它「补丁文件夹」。
+
 | 系统 | 操作 |
 | --- | --- |
-| **Windows** | 打开本补丁的 `patch` 文件夹 → **Ctrl + A** 全选 → **Ctrl + C** → 回到 `LLC_zh-CN` → **Ctrl + V** → 弹窗选**「替换目标中的文件」** |
-| **Linux / Steam Deck** | 在补丁目录里执行下面这行 |
+| **Windows** | 打开「补丁文件夹」→ **Ctrl + A** 全选 → **Ctrl + C** → 回到 `LLC_zh-CN` → **Ctrl + V** → 弹窗选**「替换目标中的文件」** |
+| **Linux / Steam Deck** | 在放补丁文件夹的上级目录执行下面这行（方式 A 把 `patch/` 换成解压出的文件夹名） |
 
 ```bash
 cp -r patch/. "/你的路径/steamapps/common/Limbus Company/LimbusCompany_Data/Lang/LLC_zh-CN/"
 ```
 
+判断有没有装对：复制完 `LLC_zh-CN` 里应该能看到 `StoryData`、`RPGSystem` 等文件夹，
+里面是 `.json` 文件。**覆盖时只新增和替换，不会删除任何东西。**
+
 ### 第 4 步：启动游戏
 
-直接开游戏即可，**不需要**在游戏里重新选语言。
+**完全退出游戏再重新启动**（自定义语言包只在启动时读取）。不需要在游戏里重新选语言。
 
 ---
 
