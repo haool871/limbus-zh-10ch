@@ -1,0 +1,548 @@
+{
+  "dataList": [
+    {
+      "id": 40004101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "红色的钉子",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的基础威力+1 (最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "红色的钉子",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的基础威力+1 (最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有2级[ChargeRouge]强度，对目标施加1层[BloodyMucusAlly] (最多2层)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "若目标为无理智值单位，则使本技能造成的伤害+50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标失去10点理智值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "红色的钉子",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的基础威力+1 (最多+2)\n[WhenUse] 若自身的理智值高于目标，或目标为无理智值单位，则使本技能的硬币威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有2级[ChargeRouge]强度，对目标施加1层[BloodyMucusAlly] (最多2层)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "若目标为无理智值单位，则使本技能造成的伤害+50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标失去10点理智值"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "走开",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的硬币威力+1 (最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "走开",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的硬币威力+1 (最多+2)\n[WhenUse] 自身每带有2级[ChargeRouge]强度，使本技能的攻击容量+1 (最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有2级[ChargeRouge]强度，对目标施加1层[BloodyMucusAlly] (最多2层)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有2级[ChargeRouge]强度，对目标施加1层[BloodyMucusAlly] (最多2层)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "走开",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的硬币威力+1 (最多+2)\n[WhenUse] 自身每带有2级[ChargeRouge]强度，使本技能的攻击容量+1 (最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有2级[ChargeRouge]强度，对目标施加1层[BloodyMucusAlly] (最多2层)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每带有2级[ChargeRouge]强度，对目标施加1层[BloodyMucusAlly] (最多2层)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "加把劲",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 对目标施加1层[ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] 自身每带有1级[ChargeRouge]强度，对目标施加1层[AttackUp] (最多5层)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "加把劲",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自身每带有2级[ChargeRouge]强度，使本技能的攻击容量+1 (最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 对目标施加1层[ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] 自身每带有1级[ChargeRouge]强度，对目标施加1层[AttackUp] (最多5层)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "加把劲",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自身每带有2级[ChargeRouge]强度，使本技能的攻击容量+1 (最多+2)\n[EndSkill] 若自身带有[GourmandiseAlly]效果，且自身的[ChargeRouge]层数不低于10层，则消耗最多10层[ChargeRouge]，并对命中的全体目标施加1层[SkillPowerUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 对目标施加1层[ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] 自身每带有1级[ChargeRouge]强度，对目标施加1层[AttackUp] (最多5层)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "加把劲",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 自身每带有2级[ChargeRouge]强度，使本技能的攻击容量+1 (最多+2)\n[EndSkill] 若自身带有[GourmandiseAlly]效果，且自身的[ChargeRouge]层数不低于10层，则消耗最多10层[ChargeRouge]，并对命中的全体目标施加1层[SkillPowerUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 对目标施加1层[SkillPowerUp]"
+                },
+                {
+                  "desc": "[EndCoin] 自身每带有1级[ChargeRouge]强度，本回合与下回合对目标施加1层[AttackUp] (最多5层)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "别疼",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使目标恢复等同于本技能最终威力×2的体力\n- 若目标为红派所属，则改为使目标失去体力，并使自身恢复等量的体力 (因本效果而陷入混乱或体力低于1时不适用)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "别疼",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 若自身的[ChargeRouge]强度不低于3级，则使本技能的攻击容量+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使目标恢复等同于本技能最终威力×2的体力\n- 若目标为红派所属，则改为使目标失去体力，并使自身恢复等量的体力 (因本效果而陷入混乱或体力低于1时不适用)"
+                },
+                {
+                  "desc": "[EndCoin] 使目标恢复等同于本技能最终威力的理智值\n- 若目标理智值为上限，则随机解除1个目标可解除的负面效果"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "别疼",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 若自身的[ChargeRouge]强度不低于3级，则使本技能的攻击容量+4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 使目标恢复等同于本技能最终威力×2的体力\n- 额外使目标恢复其体力上限的 (自身[ChargeRouge]强度×2)% 的体力\n- 若目标为红派所属，则改为使目标失去体力，并使自身恢复等量的体力 (因本效果而陷入混乱或体力低于1时不适用)"
+                },
+                {
+                  "desc": "[EndCoin] 使目标恢复等同于本技能最终威力的理智值\n- 额外使目标恢复 (自身[ChargeRouge]强度×3) 点理智值\n- 若目标理智值为上限，则随机解除1个目标可解除的负面效果"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "抓住我的手",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] 下回合使自身获得5层[Binding]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 解除目标的混乱状态"
+                },
+                {
+                  "desc": "[EndCoin] 使目标恢复等同于本技能最终威力的体力"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "抓住我的手",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] 解除目标的混乱状态"
+                },
+                {
+                  "desc": "[EndCoin] 使目标恢复等同于本技能最终威力的体力"
+                },
+                {
+                  "desc": "[EndCoin] 下回合使目标获得其体力上限50%的护盾"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "红钉洗礼",
+          "desc": "[WhenUse] 若自身的[ChargeRouge]层数不低于10层，则消耗最多10层[ChargeRouge]，使本技能的攻击容量+2、硬币威力+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "红钉洗礼",
+          "desc": "[WhenUse] 若自身的[ChargeRouge]层数不低于10层，则消耗最多10层[ChargeRouge]，使本技能的攻击容量+2、硬币威力+2\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的基础威力+1 (最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "红钉洗礼",
+          "desc": "[WhenUse] 若自身的[ChargeRouge]层数不低于10层，则消耗最多10层[ChargeRouge]，使本技能的攻击容量+2、硬币威力+2\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的基础威力+1 (最多+2)\n[WhenUse] 若自身的[ChargeRouge]强度不低于5级，则适用以下效果\n- 使本技能的攻击容量+2\n- 使本技能的硬币威力+(自身[ChargeRouge]强度-3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我来做个了断……",
+          "desc": "[CantDuel]\n目标每失去1%的体力，使本技能造成的伤害+0.5% (最多+30%)\n[WhenUse] 若自身带有[GourmandiseAlly]效果，则使本技能的攻击容量+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身带有[GourmandiseAlly]效果，则重复使用本硬币 (最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "拉·诺泽(la nausée)",
+          "desc": "[StartBattle] 消耗自身的全部[ChargeRouge]层数，使包括自身在内的全体友方单位恢复体力上限的 (消耗的[ChargeRouge]层数)% 的体力",
+          "flavor": "在成长为神的过程中必然经历的感觉。有人陷入眩晕，有人感到反胃，有人痉挛发作，有人自我欺瞒，还有人选择拒绝。世间的一切都令人晕眩、恐惧而混乱。为了忍受这一切，为了守护那些尚未被边界模糊的、仍属于自己的东西，它不惜吐出一切也要守住。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "勒·特鲁·红(le Trou rouge)",
+          "desc": "[StartBattle] 使自身获得4层[ChargeRouge]",
+          "flavor": "这是一处红色的空洞。虽然闭合着，却仍如空洞一般怀着无尽的饥渴，渴望着空洞被填满。正如它所被期待的那样，正如它被生下便是如此。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

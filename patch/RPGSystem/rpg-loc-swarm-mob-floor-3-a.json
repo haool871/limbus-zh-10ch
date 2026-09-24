@@ -1,0 +1,20 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_lanoir_fanatic_3f",
+      "displayName": "黑派店员[阳光]"
+    },
+    {
+      "key": "swarm_larouge_spa_staff_3f",
+      "displayName": "红派店员[阳光]"
+    },
+    {
+      "key": "swarm_leather_scarecrow",
+      "displayName": "真皮老爹"
+    },
+    {
+      "key": "swarm_star",
+      "displayName": "动态旋转雕塑"
+    }
+  ]
+}

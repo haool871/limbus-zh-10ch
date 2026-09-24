@@ -1,0 +1,115 @@
+{
+  "dataList": [
+    {
+      "key": "Q2001",
+      "title": "快速逛一圈2F",
+      "description": "又一次抵达了2F。像上次一样，大概没法直接进去。总之先快速看看周围吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "逛一圈2F"
+        }
+      ]
+    },
+    {
+      "key": "Q2003",
+      "title": "进入奢侈品馆",
+      "description": "守在门口的家伙消失了。情况变了吗？进去看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "进入奢侈品馆"
+        }
+      ]
+    },
+    {
+      "key": "Q2004",
+      "title": "进入奢侈品馆 2",
+      "description": "奢侈品馆里满是黑派的尸体。再往里面走吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "继续深入奢侈品馆"
+        }
+      ]
+    },
+    {
+      "key": "Q2005",
+      "title": "进入奢侈品馆 3",
+      "description": "和上次一样，出现了红派们制造的入口。进去看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从奢侈品馆入口进入"
+        }
+      ]
+    },
+    {
+      "key": "Q2008",
+      "title": "观察摇篮",
+      "description": "红派的品牌总监说，睡在摇篮里的东西即将醒来，要我们守在它身旁。总之先去摇篮前面吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "观察摇篮"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "把碎片凑近摇篮"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "把碎片喂给摇篮"
+        },
+        {
+          "index": 3,
+          "goalDescription1": "救出摇篮里的孩子"
+        }
+      ]
+    },
+    {
+      "key": "Q2008A",
+      "title": "与从摇篮里出来的孩子搭话",
+      "description": "从摇篮里出来的是一个小小的、像是孩子的形体。向它搭话吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与从摇篮里出来的孩子搭话"
+        }
+      ]
+    },
+    {
+      "key": "Q2008B",
+      "title": "抓住逃开的孩子",
+      "description": "从摇篮里出来的孩子一看到我们就逃向了角落。抓住它再搭话吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "抓住从摇篮里出来的东西"
+        }
+      ]
+    },
+    {
+      "key": "Q2009",
+      "title": "离开奢侈品馆",
+      "description": "从摇篮里出来的孩子开始跟上了我们。虽然似乎因为害怕我们而保持着距离……总之先离开奢侈品馆吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "离开奢侈品馆"
+        }
+      ]
+    },
+    {
+      "key": "Q2010",
+      "title": "前往4F",
+      "description": "从不可动摇者那里收起了脊椎骨。不知道今后会发生什么，能收起来的东西还是收起来为好。这一层的事似乎已经办完，前往4F吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往4F"
+        }
+      ]
+    }
+  ]
+}

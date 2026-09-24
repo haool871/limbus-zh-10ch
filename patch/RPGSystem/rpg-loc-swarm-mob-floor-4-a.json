@@ -1,0 +1,12 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_mannequin_type_a",
+      "displayName": "晃动的抽屉"
+    },
+    {
+      "key": "swarm_mannequin_type_b",
+      "displayName": "嘎吱作响的抽屉"
+    }
+  ]
+}

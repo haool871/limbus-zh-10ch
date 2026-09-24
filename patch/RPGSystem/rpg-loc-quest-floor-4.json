@@ -1,0 +1,132 @@
+{
+  "dataList": [
+    {
+      "key": "Q4001",
+      "title": "前往4F",
+      "description": "拿着黑派们给的鉴定报告登上4F吧。持有这个的话似乎会受到黑派极高规格的款待，因此也许逛百货店时能轻松不少。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "乘扶梯到4F"
+        }
+      ]
+    },
+    {
+      "key": "Q4002",
+      "title": "探索4F",
+      "description": "抵达了4F。这里会有什么样的店铺呢？先向右走，逛一逛4F吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "探索4F"
+        }
+      ]
+    },
+    {
+      "key": "Q4003",
+      "title": "探索4F 2",
+      "description": "从黑派制鞋馆的店员单脚人那里得知，有一种能撕裂任何面料的武器。先离开黑派制鞋馆，探索4F剩下的部分吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "结束与单脚人的对话"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "探索4F",
+          "goalDescription2": "与驼背落地灯交谈"
+        }
+      ]
+    },
+    {
+      "key": "Q4004",
+      "title": "去见家具馆的主人",
+      "description": "来到了名为家具馆的场所。驼背落地灯拜托我们给他带去适合他的衣服。去见见家具馆的主人吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与家具馆的主人交谈"
+        }
+      ]
+    },
+    {
+      "key": "Q4005",
+      "title": "给驼背落地灯带来新衣服",
+      "description": "家具馆的主人快乐衣橱默默地向我们展示了它内部挂着的各种物品。取下一身合适的衣服，带给驼背落地灯吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "给驼背落地灯带来新衣服"
+        }
+      ]
+    },
+    {
+      "key": "Q4006",
+      "title": "从快乐衣橱中取出更多衣服",
+      "description": "看到了我们为驼背落地灯带来的衣服，其他家具开始感到不满。回到快乐衣橱处，取出为其他家具准备的衣服。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从快乐衣橱中取出更多衣服"
+        }
+      ]
+    },
+    {
+      "key": "Q4007",
+      "title": "将衣服带给家具们",
+      "description": "从快乐衣橱中取出了几件衣服。现在把衣服分发给家具们吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "将衣服交给骨衣架",
+          "goalDescription2": "把衣服交给舒服的皮床",
+          "goalDescription3": "把衣服交给剥制皮窗帘",
+          "goalDescription4": "把衣服交给红色软凳",
+          "goalDescription5": "把衣服交给人皮沙发",
+          "goalDescription6": "把衣服交给双子台灯"
+        }
+      ]
+    },
+    {
+      "key": "Q4008",
+      "title": "回到快乐衣橱处",
+      "description": "把衣服全部交给了其他家具们。再次回到快乐衣橱处吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "回到快乐衣橱处"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "目睹家具们的袭击"
+        }
+      ]
+    },
+    {
+      "key": "Q4013",
+      "title": "与驼背落地灯交谈",
+      "description": "连心脏都被剥去的快乐衣橱已经不再动弹。离开家具馆前，再与驼背落地灯交谈一次吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与驼背落地灯交谈"
+        }
+      ]
+    },
+    {
+      "key": "Q4009",
+      "title": "前往地下",
+      "description": "根据我们得到的配方，黄金线团可以从黄金之茧处得到。黄金之茧据说能在B1F见到。在B1F得到黄金之茧后，前往B2F吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "乘坐扶梯前往B1F"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "探索B1F"
+        }
+      ]
+    }
+  ]
+}

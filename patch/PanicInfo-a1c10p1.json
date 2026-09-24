@@ -1,0 +1,40 @@
+{
+  "dataList": [
+    {
+      "id": 1098,
+      "panicName": "从皮里出去！",
+      "lowMoraleDescription": "防御等级-3，攻击等级+1",
+      "panicDescription": "防御等级-5，攻击等级+2"
+    },
+    {
+      "id": 1099,
+      "panicName": "回到壳中…",
+      "lowMoraleDescription": "最大速度值-1，防御等级+1",
+      "panicDescription": "最大速度值-5，防御等级+3"
+    },
+    {
+      "id": 1102,
+      "panicName": "烹饪欲望",
+      "lowMoraleDescription": "自身每带有1层[SapsareeHungry]，攻击等级+1，受到的伤害+3%",
+      "panicDescription": "自身每带有1层[SapsareeHungry]，攻击等级+2，受到的伤害+5%"
+    },
+    {
+      "id": 1104,
+      "panicName": "错失恐惧症",
+      "lowMoraleDescription": "自身每失去20%的体力，攻击等级+1(最多+2)\n对自身施加1层[Vulnerable]",
+      "panicDescription": "自身每失去20%的体力，攻击等级+1(最多+2)\n对自身施加1层[Vulnerable]"
+    },
+    {
+      "id": 1105,
+      "panicName": "胡乱缝纫",
+      "lowMoraleDescription": "回合开始时，对自身施加1层[Reduction]",
+      "panicDescription": "回合开始时，对自身施加1层[Reduction]与1层[AttackDmgDown]"
+    },
+    {
+      "id": 1121,
+      "panicName": "分裂",
+      "lowMoraleDescription": "防御等级-3，攻击等级+3\n与带有的[BloodyMucus]层数为5层的目标进行拼点时，使自身的拼点威力+2",
+      "panicDescription": "防御等级-5，攻击等级+3\n造成的伤害+10%\n与带有的[BloodyMucus]层数不低于3层目标进行拼点时，使自身拼点威力+3"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "key": "NAR_3F_HighDomestic_1",
+      "texts": [
+        {
+          "index": 0,
+          "text": "<color=#cf0000>渴求吧，如这份渴求般，分毫不留地摄取吧。</color>"
+        }
+      ]
+    },
+    {
+      "key": "NAR_3F_HighDomestic_2",
+      "texts": [
+        {
+          "index": 0,
+          "text": "<color=#cf0000>穿上吧，然后毫不吝惜地吞下吧。</color>"
+        }
+      ]
+    },
+    {
+      "key": "NAR_3F_HighDomestic_3",
+      "texts": [
+        {
+          "index": 0,
+          "text": "<color=#cf0000>期望吧，如这份期望般，毫不犹豫地耗尽吧。</color>"
+        }
+      ]
+    },
+    {
+      "key": "NAR_3F_HighDomestic_4",
+      "texts": [
+        {
+          "index": 0,
+          "text": "<color=#cf0000>渴求吧。如此便会披挂于身。</color>"
+        }
+      ]
+    },
+    {
+      "key": "NAR_3F_Le_Noir_1",
+      "texts": [
+        {
+          "index": 0,
+          "text": "<color=#7d7d7d>纵使能够填满，也不去填满。纵使能够享受，也当止步。</color>"
+        }
+      ]
+    },
+    {
+      "key": "NAR_3F_Le_Noir_2",
+      "texts": [
+        {
+          "index": 0,
+          "text": "<color=#7d7d7d>勿使满溢，依秩序而行。</color>"
+        }
+      ]
+    },
+    {
+      "key": "NAR_3F_Le_Noir_3",
+      "texts": [
+        {
+          "index": 0,
+          "text": "<color=#7d7d7d>不可违逆戒律。西西弗将铭记你们所忍受的一切痛苦。</color>"
+        }
+      ]
+    }
+  ]
+}

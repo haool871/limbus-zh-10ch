@@ -1,0 +1,180 @@
+{
+  "dataList": [
+    {
+      "key": "Q-2000",
+      "title": "隐藏 - 抵达B2F",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "用于进入B2F纺织厂"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "纺织厂过场动画"
+        }
+      ]
+    },
+    {
+      "key": "Q-2000A",
+      "title": "隐藏 - 针族对话部分",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "排队的针族对话"
+        }
+      ]
+    },
+    {
+      "key": "Q-2001",
+      "title": "探索B2F",
+      "description": "我们抵达了B2F。眼前是一列等待黄金染料的拥挤队伍。去和上次与我们做过交易的那个叫裸体的人谈谈吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与裸体交谈"
+        }
+      ]
+    },
+    {
+      "key": "Q-2002",
+      "title": "与裸体交谈",
+      "description": "我们抵达了B2F。眼前是一列等待黄金染料的拥挤队伍。去和上次与我们做过交易的那个叫裸体的人谈谈吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与裸体交谈"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "击退扑上来的黑派一伙"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "战斗后的情况整理"
+        }
+      ]
+    },
+    {
+      "key": "Q-2003",
+      "title": "前往染色室",
+      "description": "黑派们开始扑了上来。总之，必须先找到继续往地下去的办法。去问问染色室的调色板下去的路吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往染色室"
+        }
+      ]
+    },
+    {
+      "key": "Q-2004",
+      "title": "前往染色室",
+      "description": "黑派们开始扑了上来。总之，必须先找到继续往地下去的办法。去问问染色室的调色板下去的路吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往染色室"
+        }
+      ]
+    },
+    {
+      "key": "Q-2004A",
+      "title": "前往线团之巢",
+      "description": "调色板似乎想要B2F楼层经理手上的彩色线团。为了答应调色板的请求，前往线团之巢吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往线团之巢"
+        }
+      ]
+    },
+    {
+      "key": "Q-2005",
+      "title": "消灭黑派",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "消灭黑派"
+        }
+      ]
+    },
+    {
+      "key": "Q-2006",
+      "title": "消灭黑派 2",
+      "description": "黑派们接连挡住去路。我们一边消灭他们，一边继续前进吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "继续消灭黑派"
+        }
+      ]
+    },
+    {
+      "key": "Q-2007",
+      "title": "继续前往线团之巢",
+      "description": "挡路的黑派已全部消灭。现在我们前往线团之巢吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "继续前往线团之巢"
+        }
+      ]
+    },
+    {
+      "key": "Q-2008",
+      "title": "与B2F楼层经理交谈",
+      "description": "我们抵达了线团之巢。去和B2F楼层经理谈谈吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与B2F楼层经理交谈"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "消灭B2F楼层经理"
+        },
+        {
+          "index": 2,
+          "goalDescription1": "获得彩色线团"
+        }
+      ]
+    },
+    {
+      "key": "Q-2009",
+      "title": "将线团交给调色板",
+      "description": "我们从B2F楼层经理那里得到了彩色线团。现在回染色室，把彩色线团交给调色板吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "将线团交给调色板"
+        }
+      ]
+    },
+    {
+      "key": "Q-2010",
+      "title": "前往B3F扶梯",
+      "description": "调色板遵守了约定，告诉了我们通往B3F的扶梯所在。我们去通往B3F的扶梯那里吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往B3F扶梯"
+        }
+      ]
+    },
+    {
+      "key": "Q-2010A",
+      "title": "下到B3F",
+      "description": "我们抵达了通往B3F的扶梯。去B3F吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "下到B3F"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "探索B3F"
+        }
+      ]
+    }
+  ]
+}

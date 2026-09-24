@@ -1,0 +1,130 @@
+{
+  "dataList": [
+    {
+      "key": "Q-1000",
+      "title": "A1：前往B1F",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "进入B1F美食广场"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "美食广场进入对话"
+        }
+      ]
+    },
+    {
+      "key": "Q-1001",
+      "title": "前往B2F",
+      "description": "得到了屠夫烹饪出的黄金之茧。现在得想办法下到B2F。去之前路过的走廊下方的那条路看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往B2F"
+        }
+      ]
+    },
+    {
+      "key": "Q-1002",
+      "title": "寻找下行扶梯",
+      "description": "我们来到了一个满是扶梯的地方。调查这些扶梯，看看哪一台是通往B2F的。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "调查扶梯"
+        }
+      ]
+    },
+    {
+      "key": "Q-1003",
+      "title": "前往美食广场",
+      "description": "下到了B1F。在地下所见的风景与地上的店铺截然不同。为了寻找到茧，需要前往一处名为美食广场的场所。前往地上画着蜗牛壳的地方。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往美食广场"
+        }
+      ]
+    },
+    {
+      "key": "Q-1004",
+      "title": "追上副主厨",
+      "description": "遇到了名为副主厨的人。那人称在屠夫的仓库里见到过黄金之茧。追上逃跑的副主厨，获取更多与黄金之茧有关的情报。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "追上副主厨"
+        }
+      ]
+    },
+    {
+      "key": "Q-1005",
+      "title": "前往屠夫处",
+      "description": "从副主厨处了解到了关于B1F经理屠夫的事。前往屠夫处去问问他如何获得黄金之茧吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往屠夫处"
+        }
+      ]
+    },
+    {
+      "key": "Q-1006",
+      "title": "取得猎物思维",
+      "description": "为了得到屠夫手中的黄金之茧，必须持有名为猎物思维的肉。将悬挂在新鲜精肉区的猎物思维交给屠夫吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "取得猎物思维"
+        }
+      ]
+    },
+    {
+      "key": "Q-1008",
+      "title": "返回扶梯厅",
+      "description": "",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "返回扶梯厅"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "返回扶梯厅对话"
+        }
+      ]
+    },
+    {
+      "key": "Q-1009",
+      "title": "定义扶梯",
+      "description": "据让娜所说，应该定义而非寻找向下的扶梯。梯子、坡道、鞋子。我该告诉默尔索把扶梯定义为其中的哪一个呢？",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "把扶梯定义为梯子、坡道或鞋子中的一个"
+        }
+      ]
+    },
+    {
+      "key": "Q-1010",
+      "title": "启动扶梯",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": ""
+        }
+      ]
+    },
+    {
+      "key": "Q-1011",
+      "title": "乘扶梯下行",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": ""
+        }
+      ]
+    }
+  ]
+}

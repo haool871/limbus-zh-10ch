@@ -1,0 +1,210 @@
+{
+  "dataList": [
+    {
+      "key": "Q1000",
+      "title": "开场",
+      "description": "载入后立即播放开场演出（S1001B）的隐藏任务",
+      "steps": [
+        {
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "Q1011",
+      "title": "探索周围",
+      "description": "来到了一个名叫“西西弗百货”的地方。默尔索会在哪呢？暂且先四处看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "探索周围"
+        }
+      ]
+    },
+    {
+      "key": "Q1012",
+      "title": "返回卫生间",
+      "description": "在西西弗百货遇到了克罗默的亲姐姐。先回到卫生间重新整顿一下吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "返回卫生间"
+        }
+      ]
+    },
+    {
+      "key": "Q1013",
+      "title": "寻找默尔索",
+      "description": "默尔索似乎就在百货店的某处。地板上铺着地毯，前方陈列着衣服。在百货店里四处看看，寻找展示衣服的地方吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "探索百货店"
+        }
+      ]
+    },
+    {
+      "key": "Q1014",
+      "title": "？？？",
+      "description": "似乎有什么藏在这里。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "？？？"
+        }
+      ]
+    },
+    {
+      "key": "Q1021",
+      "title": "寻找默尔索 2",
+      "description": "默尔索似乎就在附近。去找找默尔索吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "寻找默尔索"
+        }
+      ]
+    },
+    {
+      "key": "Q1022",
+      "title": "任务4-1-默尔索的提议",
+      "description": "决定是否接受默尔索的提议\n→ 接受后开始狩猎任务；若暂缓，稍后可以再次与快销服饰馆店员交谈后接受。",
+      "steps": [
+        {
+          "index": 0
+        },
+        {
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "Q1023",
+      "title": "人台退场",
+      "description": "要带回默尔索，需要先帮助三个被称为“人台”的东西退场。消灭这些人台之后，再回去找看起来像是店主的含羞草吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "让人台退场"
+        },
+        {
+          "index": 1,
+          "goalDescription1": "回去找含羞草"
+        }
+      ]
+    },
+    {
+      "key": "Q1031",
+      "title": "探索西西弗百货",
+      "description": "从默尔索那里听到了关于西西弗百货的说明。虽然没有完全理解，但这里似乎没有一个正常的出口。总之先继续在这里四处看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "探索百货店"
+        }
+      ]
+    },
+    {
+      "key": "Q1032",
+      "title": "探索西西弗百货 2",
+      "description": "遇到了一个名叫杜布瓦的人。这个人看起来也像是刚进入西西弗百货没多久。为了寻找前往楼上的方法，继续在百货店里四处看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "探索百货店"
+        }
+      ]
+    },
+    {
+      "key": "Q1041",
+      "title": "看看陈列的衣服",
+      "description": "来到了一个叫作“当代服饰馆”的地方。店员似乎没有兴趣和我们交谈。先看看店里陈列的衣服吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "看看衣服"
+        }
+      ]
+    },
+    {
+      "key": "Q1042",
+      "title": "阻止试图攻击的黑派店员",
+      "description": "",
+      "steps": [
+        {
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "Q1051",
+      "title": "前往红派的店铺",
+      "description": "从黑派店员那里听说了关于黄金松脂的事情。接着去楼上的红派当代服饰馆看看吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "前往红派当代服饰馆"
+        }
+      ]
+    },
+    {
+      "key": "Q1052",
+      "title": "寻找大针",
+      "description": "红派当代服饰馆的店员奎利安拜托我们去找一根大针。先去寻找持有这根针的人台，拿到针之后再回去找奎利安吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "从人台上得到大针并回去找奎利安"
+        }
+      ]
+    },
+    {
+      "key": "Q1061",
+      "title": "购买衣服",
+      "description": "据说要想到楼上去，首先需要积累购买记录。先从店铺的店员那里买些衣服，然后继续寻找前往楼上的方法吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "向奎利安购买衣服"
+        }
+      ]
+    },
+    {
+      "key": "Q1062",
+      "title": "前往扶梯",
+      "description": "找到了可以前往下一层的扶梯。看到了刚才遇见的杜布瓦。去和他聊聊吧。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "与杜布瓦交谈"
+        }
+      ]
+    },
+    {
+      "key": "Q1064",
+      "title": "乘坐扶梯",
+      "description": "扶梯正在运作。现在应该可以前往2F了。",
+      "steps": [
+        {
+          "index": 0,
+          "goalDescription1": "乘扶梯到2F"
+        }
+      ]
+    },
+    {
+      "key": "Q1018",
+      "title": "？？？",
+      "description": "（隐藏）获得尖钉时的对话",
+      "steps": [
+        {
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "Q1001",
+      "title": "任务1-开始",
+      "description": "未使用"
+    }
+  ]
+}

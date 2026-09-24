@@ -1,0 +1,42 @@
+{
+  "dataList": [
+    {
+      "id": 1109,
+      "panicName": "未被遗忘的痛楚",
+      "lowMoraleDescription": "使自身获得3层[Protection]",
+      "panicDescription": "使自身获得5层[Protection]",
+      "flavor": "……好痛。我被撕裂过。但现在，请保护我。好奇怪。我喜欢现在这样。可我还是怕，怕再次痛起来……"
+    },
+    {
+      "id": 1113,
+      "panicName": "丧子之物",
+      "lowMoraleDescription": "使用技能时，<color=#ff6000><mark=#ff000040><b><u>若主要目标为布伊，则拼点威力+3、基础威力+2</u></b></mark></color>\n受到攻击时对目标施加1层[TangleBlackYarn] (每个技能最多3次)",
+      "panicDescription": "<color=#ff6000><mark=#ff000040><b><u>将所有攻击的目标指定为布伊</u></b></mark></color>\n战斗开始时，使技能的所有硬币转化为<color=#ff6000><mark=#ff000040><b><u>不可摧毁的硬币</u></b></mark></color>\n使用技能时，<color=#ff6000><mark=#ff000040><b><u>若主要目标为布伊，则拼点威力+6、基础威力+4</u></b></mark></color>\n受到攻击时对目标施加1层[TangleBlackYarn] (每个技能最多6次)",
+      "flavor": "它愤怒、悲伤地嚎哭着，但这份情感亦是业报。诞生与死亡相系，它在不知晓孕育便须做好失去准备的情况下孵着卵，这便是孵育之物的业报。其中既无善也无恶，唯有愚蠢。"
+    },
+    {
+      "id": 1110,
+      "panicName": "手抖",
+      "lowMoraleDescription": "受到的伤害+7.5%\n每次受到攻击时，使自身的[Vibration]层数+1 (每个技能最多1次，每回合最多5次)",
+      "panicDescription": "受到的伤害+15%\n每次受到攻击时，使自身的[Vibration]强度+1、[Vibration]层数+1 (每个技能最多1次，每回合最多5次)"
+    },
+    {
+      "id": 1115,
+      "panicName": "机器卡纸",
+      "lowMoraleDescription": "对速度低于自身的目标造成的技能伤害-5%",
+      "panicDescription": "对速度低于自身的目标造成的技能伤害-10%"
+    },
+    {
+      "id": 1112,
+      "panicName": "失控",
+      "lowMoraleDescription": "技能最终威力+1\n回合开始时，对除自身以外的所有友方单位施加1层[Reduction]",
+      "panicDescription": "技能最终威力+1\n回合开始时，对除自身以外的所有友方单位施加1层[Reduction]、1层[AttackDmgDown]"
+    },
+    {
+      "id": 1111,
+      "panicName": "回到最初的壳中……",
+      "lowMoraleDescription": "攻击等级-2，防御等级+2",
+      "panicDescription": "攻击等级-3，防御等级+4"
+    }
+  ]
+}

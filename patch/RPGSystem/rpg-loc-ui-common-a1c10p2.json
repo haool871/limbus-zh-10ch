@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "key": "ItemFilterBuffetUpgrade",
+      "text": "布伊强化"
+    },
+    {
+      "key": "Setting_Tab_Key",
+      "text": "按键设置"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveUp",
+      "text": "向上移动"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveDown",
+      "text": "向下移动"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveLeft",
+      "text": "向左移动"
+    },
+    {
+      "key": "KeyDesc_PlayerMoveRight",
+      "text": "向右移动"
+    },
+    {
+      "key": "KeyDesc_PlayerFieldAttack",
+      "text": "攻击"
+    },
+    {
+      "key": "KeyDesc_PlayerGuard",
+      "text": "防御"
+    },
+    {
+      "key": "KeyDesc_PlayerDodge",
+      "text": "闪避"
+    },
+    {
+      "key": "KeyDesc_PlayerRun",
+      "text": "奔跑"
+    },
+    {
+      "key": "KeyDesc_PlayerQuestNavigationToggle",
+      "text": "任务引导箭头"
+    },
+    {
+      "key": "KeyDesc_PlayerLanternToggle",
+      "text": "灯 ON/OFF"
+    },
+    {
+      "key": "KeyDesc_PlayerAutoAttackToggle",
+      "text": "自动攻击"
+    },
+    {
+      "key": "KeyDesc_PlayerSuicide",
+      "text": "返回泉"
+    },
+    {
+      "key": "KeyDesc_UiToggleInventoryTab",
+      "text": "背包"
+    },
+    {
+      "key": "KeyDesc_UiToggleQuestTab",
+      "text": "日志：任务"
+    },
+    {
+      "key": "KeyDesc_UiToggleManualTab",
+      "text": "快捷键指南"
+    },
+    {
+      "key": "KeyDesc_UiToggleSystemLog",
+      "text": "所有记录"
+    },
+    {
+      "key": "KeyBind_InvalidKey",
+      "text": "无法使用该按键。"
+    },
+    {
+      "key": "MoveToKeyBind",
+      "text": "打开按键设置"
+    }
+  ]
+}

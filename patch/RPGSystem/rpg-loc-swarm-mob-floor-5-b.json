@@ -1,0 +1,16 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_lanoir_fanatic",
+      "displayName": "黑派店员"
+    },
+    {
+      "key": "swarm_lanoir_fanatic_3f",
+      "displayName": "黑派店员"
+    },
+    {
+      "key": "swarm_lanoir_guard",
+      "displayName": "黑派司祭"
+    }
+  ]
+}

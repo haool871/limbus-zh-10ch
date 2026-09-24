@@ -1,0 +1,32 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_green_needle",
+      "displayName": "碧绿的针族"
+    },
+    {
+      "key": "swarm_lanoir_fanatic",
+      "displayName": "黑派店员"
+    },
+    {
+      "key": "swarm_lanoir_guard",
+      "displayName": "黑派司祭"
+    },
+    {
+      "key": "swarm_pus_blue",
+      "displayName": "满溢的蓝色眼泪"
+    },
+    {
+      "key": "swarm_pus_red",
+      "displayName": "化脓的红色眼泪"
+    },
+    {
+      "key": "swarm_pus_yellow",
+      "displayName": "溃烂的黄色眼泪"
+    },
+    {
+      "key": "swarm_red_needle",
+      "displayName": "赤红的针族"
+    }
+  ]
+}

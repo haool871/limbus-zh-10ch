@@ -1,0 +1,2311 @@
+{
+  "dataList": [
+    {
+      "id": 146501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "衬衫在这边。",
+          "desc": "[WhenUse] 使自身获得7层[ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得3层[ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "休闲裤陈列在这边。",
+          "desc": "[WhenUse] 使自身获得4层[ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得3层[ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Reduction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "这件商品禁止试穿，客人。",
+          "desc": "[CantChangeTarget]\n若目标<color=#ff6000><mark=#ff000040><b><u>装备了守备技能，则取消本技能</u></b></mark></color>\n[WhenUse] 自身每带有1级[ChargeNoir]强度，使本技能造成的伤害+10%(最多+50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗5层[Charge]并使目标[VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "请随意试穿任何商品，客人。",
+          "desc": "[CantChangeTarget]\n[StartBattle] 若目标<color=#ff6000><mark=#ff000040><b><u>装备了守备技能，则使本技能的所有硬币转化为[SuperCoin]并使本技能的最终威力+5</u></b></mark></color>\n[WhenUse] 自身每带有1级[ChargeNoir]强度，使本技能造成的伤害+10%(最多+50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗5层[Charge]并使目标[VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "请勿损坏商品。",
+          "desc": "[CantChangeTarget]\n[StartBattle] 若目标<color=#ff6000><mark=#ff000040><b><u>装备了攻击技能，则使本技能的所有硬币转化为[SuperCoin]并使本技能的最终威力+5</u></b></mark></color>\n[WhenUse] 自身每带有1级[ChargeNoir]强度，使本技能造成的伤害+10%(最多+50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目标装备了攻击技能，则对其施加1层[NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗5层[ChargeNoir]并使目标[VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "客人！请不要把商品弄皱！",
+          "desc": "[StartBattle] 若目标未装备守备技能，则使本技能对其造成的伤害+(各个目标的[NoirNoComply]层数×100)%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标装备了守备技能，则使其[NoirNoComply]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "该商品没有适合您的尺寸，将另外向总公司确认库存。",
+          "desc": "[StartBattle] 若使用本技能的行动槽为至少3个技能的主要目标，则使自身的[NoirBindArmor]层数减少3层，并在下回合获得2层[Enhancement]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "缝纫",
+          "desc": "[WhenUse] 使自身获得6层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "印花",
+          "desc": "[WhenUse] 使自身获得4层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "三线缝纫",
+          "desc": "[StartBattle] 若现存体力低于体力上限的50%，则使本技能的所有硬币转化为[SuperCoin]\n[DefeatDuel] 使本技能造成的伤害不会使目标陷入混乱\n[EndSkill] 消耗自身3层[ChargeRouge]并使自身恢复30点体力",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加4级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢复相当于本硬币最终伤害量的体力"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加4级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢复相当于本硬币最终伤害量的体力"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加4级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢复相当于本硬币最终伤害量的体力"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "进攻性营销",
+          "desc": "[StartBattle] 若现存体力低于体力上限的50%，则使本技能的所有硬币转化为[SuperCoin]，对自身施加3层[DefenseDown]并使自身获得6层[ChargeRouge]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n[WhenUse] 自身每带有1级[ChargeRouge]强度，使本技能造成的伤害+10%(最多+30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加4级[Laceration]强度并对其施加2层[Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使自身恢复相当于本硬币最终伤害量的体力(每个技能最多100点)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗自身3层[ChargeRouge]并重复使用本硬币(最多3次)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 触发目标的[Laceration]，并使其[Laceration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我说都切掉噢",
+          "desc": "[WhenUse] 若目标带有[SapsareeSpices]，则使本技能的最终威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我说切大块噢",
+          "desc": "[WhenUse] 目标每带有1层[SapsareeSpices]，使本技能的最终威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我说切碎碎噢",
+          "desc": "[WhenUse] 若目标带有[SapsareeSpices]，则使本技能的硬币威力+1\n[WhenUse] 目标每带有6级[Laceration]强度，使本技能的硬币威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我说这就是人家的招牌噢",
+          "desc": "[WhenUse] 自身每带有2层[SapsareeYammi]，使本技能的硬币威力+1\n[WhenUse] 若主要目标带有[SapsareeSpices]，则使本技能的最终威力+3\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱\n[EndSkill] 消耗自身所有[SapsareeYammi]",
+          "flavor": "通过掌握这项技术，最终升职为副主厨。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我说我在收集食材噢",
+          "desc": "[CantDuel] [CantChangeTarget]\n优先指定带有的状态效果数最多的友方单位\n使用本技能时，禁用友方单位的基础理智值减少条件",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>击杀目标友方单位</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我说大家快快集合噢！",
+          "desc": "[CanDuelGuard]\n下回合在场上召唤尽可能多的真皮钱包",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我说要吃美味的东西噢",
+          "desc": "本技能的主要目标与次要目标均指定友方目标\n若目标为友方单位，则使本技能造成的伤害固定为0点",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则对其施加1层[SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标为友方单位，则下回合使其获得2层[AttackUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则对其施加1层[SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标为友方单位，则下回合使其获得2层[DefenseUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目标为敌方单位，则对其施加1层[SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标为友方单位，则下回合使其获得1层[ParryingResultUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "啊！我说吃饭时间到了噢",
+          "desc": "[CantIdentify]\n本技能不会命中且造成的伤害固定为0点\n[EndSkill] 自身每带有1层[SapsareeCooking]，使自身恢复体力上限1%的体力并获得1层[SapsareeYammi]\n[EndSkill] 自身每带有1层[SapsareeCooking]，使除自身以外的全体友方单位恢复其体力上限20%的体力并获得1层[SapsareeYammi]\n[EndSkill] 消耗所有[SapsareeCooking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147409,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "烹饪！！！我说我好想烹饪噢！",
+          "desc": "[CantIdentify]\n下回合在场上召唤尽可能多的真皮钱包\n[EndSkill] 消耗所有[SapsareeHungry]，本回合内自身不会获得[SapsareeHungry]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嚼嚼",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "吧唧吧唧",
+          "desc": "[WhenUse] 目标每带有6级[Laceration]强度，使本技能的硬币威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嗝呃呃呃",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+2(最多+4)\n[WhenUse] 若自身的[SapsareeYammi]层数不低于3层，则使本技能的所有硬币转化为[SuperCoin]\n[WhenUse] 若自身的[SapsareeYammi]层数不低于5层，则使本技能的攻击容量+2\n[WhenUse] 消耗自身所有[SapsareeYammi]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标造成10点理智伤害"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[SapsareeSpices]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "在美食广场待命",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>使自身获得1层[SapsareeShield]</u></b></mark></color>\n[WhenUse] 使自身获得(目标的[Laceration]强度×5)点护盾",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我不想被拿来烹调。",
+          "desc": "[SupportProtect]专用技能\n[DefeatDuel] 对自身施加5层[Vulnerable]\n<color=#ff6000><mark=#ff000040><b><u>[EndSkillAll] 若自身存活，则副主厨对自身使用“我说我在收集食材噢”</u></b></mark></color>\n(若副主厨陷入混乱，则不会触发)",
+          "flavor": "到肉该发挥它们作用的时候了。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "空腹打嗝",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+2(最多+4)\n[WhenUse] 若自身带有的状态效果数不低于3种，则使本技能的所有硬币转化为[SuperCoin]\n[WhenUse] 若自身带有的状态效果数不低于5种，则使本技能的攻击容量+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标造成10点理智伤害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "慢吞吞",
+          "desc": "[WhenUse] 使自身获得(目标的[Laceration]强度×5)点护盾 ",
+          "flavor": "褐派们没事可做的时候，通常就只是发呆。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "店内广播",
+          "desc": "与可拼点守备技能拼点时，使本技能的拼点威力+20\n本技能不会触发目标的守备技能\n本技能造成的伤害固定为0点\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] 对目标施加10层[Wariness]</u></b></mark></color>",
+          "flavor": "听……听那声音……",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack] 解除目标所有[Wariness]并使其获得1层[ReliefSense](每回合每名罪人最多1次)</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "警告广播",
+          "desc": "[CantChangeTarget]\n- 带有的[Wariness]层数与本技能指定的罪人相同的罪人可无视速度值将本技能的目标变更为自身\n优先指定[Wariness]层数最高的目标\n本技能不会触发目标的守备技能\n[EndSkill] 消耗目标所有[Wariness]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>对目标造成(其理智值+45)点理智伤害，下回合对其施加1层[HorribleTerror]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "感谢…聆听…",
+          "desc": "[CantChangeTarget]\n- 带有的[ReliefSense]层数与本技能指定的罪人相同的罪人可无视速度值将本技能的目标变更为自身\n优先指定[ReliefSense]层数最高的目标\n[DefeatDuel] 使自身受到来自与本技能拼点的技能的伤害+150%\n[EndSkill] 解除目标所有[ReliefSense]",
+          "flavor": "魅惑有许多种类。其结果和过程都有所不同。但，受魅惑的状态是相同的。即敞开心扉，毫无防备的状态。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "冲刺",
+          "desc": "[WhenUse] 目标的[Vibration]强度与[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+3)\n[WhenUse] 若现存体力不高于50%，则触发以下效果\n- 令本技能增加的[Vibration]强度与施加的[Vibration]层数额外+2\n- 使本技能的最后一枚硬币转化为[SuperCoin]，命中时使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "猛烈冲刺",
+          "desc": "[WhenUse] 目标的[Vibration]强度与[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+3)\n[WhenUse] 若现存体力不高于50%，则触发以下效果\n- 令本技能增加的[Vibration]强度与施加的[Vibration]层数额外+2\n- 使本技能的第2、3枚硬币转化为[SuperCoin]，第2枚硬币命中时使目标[VibrationExplosion]，并使其[Vibration]层数减少1层",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "地动楼摇",
+          "desc": "[CantChangeTarget]\n优先指定陷入恐慌的目标\n带有[ReliefSense]的罪人可将本技能的目标变更为自身\n[WhenUse] 若目标未带有[ReliefSense]，则使本技能的攻击容量+2\n[WhenUse] 目标的[Vibration]强度与[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+4)\n[DefeatDuel] 触发以下效果\n- 使本技能造成的伤害-50%\n- 使本技能造成的伤害不会使目标陷入混乱，且命中时不会触发目标的[Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加(自身的[UnresolvedFeelings]层数)级[Sinking]强度(最多15级)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "咚！咚！轰隆！",
+          "desc": "可无视速度值与本技能拼点\n[StartBattle] 使自身获得100点护盾\n- 自身每失去1%的体力，额外获得4点护盾(最多200点)\n- 攻击前，若自身的护盾未被破坏，则每带有100点护盾，重复使用最后一枚硬币1次(最多2次)\n[WhenUse] 主要目标的[Vibration]强度与[Sinking]强度之和每有6级，使本技能的最终威力+1，硬币威力+1(分别最多+4)\n[DefeatDuel] 触发以下效果\n- 使本技能造成的伤害-75%\n- 使本技能造成的伤害不会使目标陷入混乱，且命中时不会触发目标的[Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加(自身的[UnresolvedFeelings]层数/3)级[Sinking](最多10级)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 若目标未带有[ReliefSense]，则对其施加1层[Wariness]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "地动楼摇",
+          "desc": "[CantChangeTarget]\n优先指定陷入恐慌的目标\n带有[ReliefSense]的罪人可将本技能的目标变更为自身\n本技能不会触发目标的守备技能\n可无视速度值与本技能拼点\n[WhenUse] 使本技能的攻击容量+3\n- 主要目标每带有1层[ReliefSense]，使本技能增加的攻击容量-1\n[WhenUse] 触发以下效果\n- 主要目标的[Vibration]强度与[Sinking]强度之和每有4级，则使本技能的最终威力+1(最多+4)\n- 主要目标每带有3层[Wariness]，使本技能的拼点威力+1(最多+3)\n- 使本技能造成的伤害+(目标的[Wariness]层数×10)%(最多+100%，每名目标分别判定)\n[DefeatDuel] 触发以下效果\n- 使本技能造成的伤害-50%\n- 使本技能造成的伤害不会使目标陷入混乱，且命中时不会触发目标的[Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加3层[Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加(自身的[UnresolvedFeelings]层数)级[Sinking]强度(最多15级)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加(自身的[UnresolvedFeelings]层数)级[Sinking]强度(最多15级)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "咚！咚！轰隆！轰隆隆隆！！！",
+          "desc": "本技能不会触发目标的守备技能\n可无视速度值与本技能拼点\n[StartBattle] 使自身获得100点护盾\n- 自身每失去1%的体力，额外获得4点护盾(最多400点)\n- 攻击前，若自身的护盾未被破坏，则每带有100点护盾，重复使用最后一枚硬币1次(最多3次)\n[WhenUse] 触发以下效果\n- 主要目标的[Vibration]强度与[Sinking]强度之和每有6级，使本技能的最终威力+1，硬币威力+1(分别最多+4)\n- 主要目标每带有2层[Wariness]，使本技能的拼点威力+1(最多+5)\n- 使本技能造成的伤害+(目标的[Wariness]层数×10)%(最多+100%，每名目标分别判定)\n[DefeatDuel] 触发以下效果\n- 使本技能造成的伤害-75%\n- 使本技能造成的伤害不会使目标陷入混乱，且命中时不会触发目标的[Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加(自身的[UnresolvedFeelings]层数/2)级[Sinking]强度(最多15级)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 若目标未带有[ReliefSense]，则对其施加1层[Wariness]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "听到了！我听到了！",
+          "desc": "[WhenUse] 使自身获得5层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我又能再换一次衣服了！",
+          "desc": "[WhenUse] 使自身获得5层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeRouge]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我的信仰并非毫无意义！",
+          "desc": "[WhenUse] 自身每带有1级[ChargeRouge]，使本技能造成的伤害+10%(最多+50%)\n[WhenUse] 消耗5层[ChargeRouge]并使本技能的最终威力+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "刮削！剥下！脱掉！",
+          "desc": "[StartBattle] 若现存体力低于50%，则使本技能的所有硬币转化为[SuperCoin]\n[WhenUse] 自身每带有1级[ChargeRouge]强度，使本技能造成的伤害+10%(最多+50%)\n[WhenUse] 自身每带有1层[ChargeRouge]，使本技能造成的伤害+3%(最多+60%)\n\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "这世界是有意义的！",
+          "desc": "[StartBattle] 每有1名目标装备了守备技能，使本技能造成的伤害-10%\n[StartBattle] 每有1名目标装备了攻击技能，下回合对自身施加1层[DefenseDown]\n\n[BeforeAttack] 本技能每有1枚硬币被摧毁，使本技能的基础威力-1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "那声音确实与我同在！",
+          "desc": "[OnDirectAttack] 使本技能造成的伤害-80%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] 使自身恢复相当于本技能最终伤害量的体力"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "变得更像我自己…再一次，变得更像我自己…！",
+          "desc": "[DuelCounter]\n[RougeThreeCocoon]专用技能\n\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加3级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>若自身的[RougeThreeCocoonHit]层数不低于10层，则重复使用本硬币(每个技能最多1次)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>若自身的[RougeThreeCocoonHit]层数不低于20层，则重复使用本硬币(每个技能最多1次)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] 使自身获得1层[ChargeRouge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "咔哒咔哒",
+          "desc": "[WhenUse]\n- 目标每带有4级[Vibration]强度，使本技能的最终威力+1(最多+3)\n- 若自身的[ChargeNoir]层数不低于8层，则使本技能的硬币威力+1\n[WhenUse] 若自身的[ChargeNoir]层数低于15层，则使自身获得2层[ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得1层[ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得1层[ChargeNoir]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "咔哒咔哒，咚！",
+          "desc": "[WhenUse]\n- 目标每带有4级[Vibration]强度，使本技能的最终威力+1(最多+3)\n- 若自身的[ChargeNoir]层数不低于8层，则使本技能的硬币威力+1\n[WhenUse]\n- 使自身获得3层[ChargeNoir]\n- 若自身的[ChargeNoir]强度不低于3级，则使本技能的最后一枚硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度并对其施加2层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得3层[ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeNoir]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[ChargeNoir]层数不低于15层，则消耗3层[ChargeNoir]，使目标[VibrationExplosion]，并使目标的[Vibration]层数减少1层 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "请把它们切掉！拜托了！",
+          "desc": "可无视速度值与本技能拼点\n[WhenUse]\n- 若自身的[ChargeNoir]层数不低于10层，则消耗10层[ChargeNoir]并使本技能的基础威力+1，硬币威力+1\n- 若自身的[ChargeNoir]层数低于10层，则使自身获得5层[ChargeNoir]\n- 若自身的[ChargeNoir]强度不低于3级，则使本技能的所有硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若本技能消耗了[ChargeNoir]层数，则使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "咔哒咔哒的声音，好可怕…",
+          "desc": "[WideAreaRampage]\n自身每带有1级[ChargeNoir]强度，使本技能造成的伤害+3%(最多+15%)\n命中时使目标[VibrationExplosion]，并使其[Vibration]层数减少1层\n[StartBattle] 使自身获得(自身的[ChargeNoir]强度-2)层[NoirBindArmor](最多3层)\n[WhenUse]\n- 使全体目标增加3级[Vibration]强度并对其施加3层[Vibration]\n- 若自身的[ChargeNoir]层数不低于10层，则消耗10层[ChargeNoir]并使本技能的基础威力+2，硬币威力+2\n[DefeatDuel]\n- 使本技能造成的伤害-50%\n- 使本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "肮脏的东西！",
+          "desc": "[WhenUse] 若自身的[NoirSuit]层数不低于50层，则使自身获得1层防御等级提升 \n[WhenUse] 若自身带有[Realisation]，则\n- 使本技能造成的伤害+(自身的[ChargeNoir]强度×8)%(最多+40%)\n- 消耗4层[Realisation]\n[WhenUse] 若自身的[ChargeNoir]层数不低于12层，\n则消耗2层[ChargeNoir]并使本技能的拼点威力+1\n[WhenUse] 若自身的[ChargeNoir]层数低于10层，则使自身获得2层[ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Vibration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得1层[ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Vibration]强度并对其施加1层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得1层[ChargeNoir]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你不觉得有不止一条腿很丢人吗？",
+          "desc": "[WhenUse] 若自身带有[NoirSuit]，则\n每带有40层[NoirSuit]，使自身获得1层[DefenseUp](最多2层)\n[WhenUse] 若自身带有[Realisation]，则\n- 使本技能造成的伤害+(自身的[ChargeNoir]强度×6)%(最多+30%)\n- 消耗6层[Realisation]\n[WhenUse] 若自身的[ChargeNoir]层数不低于12层，\n则消耗2层[ChargeNoir]并使本技能的最终威力+1\n[WhenUse] 若自身的[ChargeNoir]层数低于15层，则使自身获得3层[ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Vibration]强度并对其施加2层[Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得2层[ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得1层[ChargeNoir]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身的[ChargeNoir]强度不低于3级，则使目标[VibrationExplosion]并使目标的[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "出于慈悲，我会帮你去除掉其中一条。",
+          "flavor": "你难道不想知道，当你见到黑派的品牌经理时，他会作何反应吗？",
+          "desc": "可无视速度值与本技能拼点\n[WhenUse] 若自身带有[NoirSuit]，则每带有30层[NoirSuit]，使本技能的拼点威力+1(最多+3)\n[WhenUse] 若自身带有[Realisation]，则每带有2层[Realisation]，使本技能造成的伤害+1%(最多+50%)\n[WhenUse]\n- 若自身的[ChargeNoir]层数不低于10层，则消耗10层[ChargeNoir]并使本技能的硬币威力+2\n- 若自身的[ChargeNoir]层数低于10层，则使自身获得5层[ChargeNoir]\n[DefeatDuel]\n- 使本技能造成的伤害-50%\n- 使自身的混乱阈值前移(自身的[DefenseUp]层数)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若本技能消耗了[ChargeNoir]层数，则使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "单踢",
+          "desc": "[WhenUse] 若自身带有[NoirSuit]，则\n- 每带有3层[NoirSuit]，使本技能造成的伤害+1%(最多+30%)\n- 每带有15层[NoirSuit]，使自身获得1层[DefenseUp](最多5层)\n[WhenUse] 若自身的[ChargeNoir]层数不低于10层，\n则消耗10层[ChargeNoir]并使本技能的硬币威力+2\n- 若自身体力不高于50%，则额外消耗最多10层[ChargeNoir]并使本技能造成的伤害+(额外消耗的[ChargeNoir]层数×2.5)%(最多+25%)\n[WhenUse] 若自身的[ChargeNoir]强度不低于3级/5级，则使本技能的硬币威力+1/+2\n[DefeatDuel]\n- 使本技能造成的伤害-75%\n- 使本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "自身每带有1层[DefenseUp]，使本硬币造成的伤害+5%(最多+100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若自身的[ChargeNoir]强度不低于3/5级，则使目标[VibrationExplosion]1/2次，并使目标的[Vibration]层数减少1/2层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "单踢-多样定制时装",
+          "desc": "[WhenUse] 若自身带有[Realisation]，则\n- 每带有2层[Realisation]，使本技能造成的伤害+1%(最多+50%)\n- 使本技能造成的伤害+(自身的[ChargeNoir]强度×6)%(最多+30%)\n- 消耗15层[Realisation]\n[WhenUse] 若自身的[ChargeNoir]层数不低于10层，\n则消耗10层[ChargeNoir]并使本技能的最终威力+2，硬币威力+1\n[WhenUse] 若自身的[ChargeNoir]强度不低于3级/5级，则使本技能的硬币威力+1/+2\n[DefeatDuel]\n- 使本技能造成的伤害-75%\n- 使本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Vibration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 若自身的[ChargeNoir]强度不低于3/5级，则使目标[VibrationExplosion]1/2次，并使目标的[Vibration]层数减少1/2层"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标造成本硬币最终伤害量20%的突刺伤害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "经纱要如何",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "纬纱就这样",
+          "desc": "[WideAreaRampage]\n\n目标每带有1层[NiddlePin]，使本技能造成的伤害+5%(最多+25%)\n\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[NiddlePin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[NiddlePin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "针数！针数！针数！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "每英寸的针数要在20以上！！！",
+          "desc": "[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你说缝线太整齐了？你说不是手工缝制？集合！！！",
+          "desc": "[StartBattle] 下回合召唤3名针族",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 149606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "给我手工缝制！！！",
+          "desc": "优先指定未陷入混乱的友方单位，本技能造成的伤害固定为0点\n不会触发目标的守备技能\n\n[EndSkill] 使被指定的针族随机使用一个攻击技能(无视混乱)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 本回合与下回合使目标获得1层强壮 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "侧缝外侧能看到两根缝线的话就是双针。淘汰！",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>每有1名针族在场，使本技能造成的伤害+50%\n • 若场上没有针族，则取消本技能</u></b></mark></color>\n\n[EndSkill] 击杀所有针族\n • 每以此效果击杀1名针族，下回合使自身获得1层[Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使本硬币对处于[NiddlePinned]状态的目标造成的伤害+100%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "没把纽扣缝成十字，淘汰！",
+          "desc": "[DefeatDuel] 使目标的[NiddlePin]层数减少2层",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗目标1层[NiddlePin]并对其造成5点固定伤害"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗目标1层[NiddlePin]并对其造成5点固定伤害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你说我故意把挑针缝得很显眼？！那就给你也缝成一样的！",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>若目标的[NiddlePin]层数不低于5层，则对其施加2层[NiddlePinned]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "只要吃…就好了！！！",
+          "desc": "优先指定处于[NiddlePinned]状态的敌方单位\n- 优先指定[NiddlePin]层数最高的目标\n[NiddlePin]层数不低于5层的目标无法将本技能的目标改为自身\n\n目标每带有1层[NiddlePin]，使本技能造成的伤害+10%(最多+50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>若目标处于[NiddlePinned]状态，则对其造成其体力上限99%的固定伤害</u></b></mark></color>"
+                },
+                {
+                  "desc": "[EnemyKill] 使自身恢复体力上限5%的体力"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嗝…",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目标未带有[Laceration]，则使本技能造成的伤害-80%并使本技能的所有硬币转化为[SuperCoin]</u></b></mark></color>\n[WinDuel] 随机解除目标带有的1种正面状态(不包括充能 与呼吸法 )，并使自身获得1层[Nutrition]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "唔嗯…",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若目标未带有[Laceration]，则使本技能造成的伤害-80%并使本技能的所有硬币转化为[SuperCoin]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 随机解除目标带有的1种正面状态(不包括充能 与呼吸法 )，并使自身获得1层[Nutrition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "噗…呼…",
+          "desc": "[WhenUse] 主要目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] 若主要目标未带有[Laceration]，则使本技能造成的伤害-80%并使本技能的所有硬币转化为[SuperCoin]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 随机解除目标带有的1种正面状态(不包括充能 与呼吸法 )，并使自身获得1层[Nutrition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "好…冷…",
+          "desc": "优先指定体力最低的目标\n目标每失去1%体力，使本技能造成的伤害+5%(最多+250%)\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+2(最多+4)\n[WhenUse] 若目标现存体力低于50%，则使本技能的基础威力+3\n[WinDuel] 随机解除目标带有的1种正面状态(不包括充能 与呼吸法 )，并使自身获得2层[Nutrition]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加2层[BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "好痛…！身体…不听使唤…！！！",
+          "desc": "优先指定体力最低的目标为主要目标\n目标每失去3%体力，使本技能造成的伤害+5%(最多+50%)\n[WhenUse] 主要目标每带有4级[Laceration]强度，使本技能的最终威力+2(最多+4)\n[WhenUse] 若主要目标现存体力低于50%，则使本技能的基础威力+2\n[WinDuel] 随机解除主要目标带有的1种正面状态(不包括充能 与呼吸法 )，并使自身获得2层[Nutrition]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "又饿…又冷…又痛…！",
+          "desc": "优先指定体力最低的目标为主要目标\n目标每失去1%体力，使本技能造成的伤害+1%(最多+30%)\n[WhenUse] 主要目标每带有6级[Laceration]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 若主要目标现存体力低于50%，则使本技能的基础威力+2\n[WhenUse] 若自身的[ChargeRouge]层数不低于10层，则消耗自身所有[ChargeRouge]层数并使本技能的硬币威力+2，攻击容量+2\n[DefeatDuel] 使本技能造成的伤害-95%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 使目标增加6级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 触发目标的[Laceration]1次，并使其[Laceration]层数减少1层"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 触发目标的[Laceration]1次，并使其[Laceration]层数减少1层"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 触发目标的[Laceration]1次，并使其[Laceration]层数减少1层"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "滚…开…",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WinDuel] 使自身获得3层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "肚子…空空…",
+          "desc": "[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WinDuel] 使自身获得3层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148409,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "什么都好…让我…吃上一点…",
+          "desc": "[WhenUse] 主要目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WinDuel] 使自身获得3层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148410,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我听到了声音…",
+          "desc": "[WhenUse] 主要目标每带有6级[Laceration]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 若自身的[ChargeRouge]层数低于15层，则使自身获得至15层[ChargeRouge]，每获得5层[ChargeRouge]，下回合对自身施加1层[BuffetFailed]\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "flavor": "百货店里有很多声音。会是谁的声音呢。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "不…不要…",
+          "desc": "[CanDuelGuard]\n[SupportProtect]专用技能\n[WhenUse] 使自身获得(自身的[ChargeRouge]层数×10)点护盾\n[WinDuel] 使自身获得3层[ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148412,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我…想…",
+          "desc": "若自身的[Laceration]强度不低于6级，则使本技能的硬币威力+1\n[WhenUse] 主要目标每带有4级[Laceration]强度，使本技能的最终威力+2(最多+4)\n[DefeatDuel] 使自身[ChargeRouge]层数减少2层\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148413,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "我是…谁…？",
+          "desc": "[WhenUse] 主要目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+3)\n[WhenUse] 若自身的[ChargeRouge]层数不低于10层，则消耗10层[ChargeRouge]并使本技能的硬币威力+2\n[DefeatDuel] 使本技能造成的伤害-80%，且本技能造成的伤害不会使目标陷入混乱",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 下回合对目标施加4层[Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "垂下的手势",
+          "desc": "",
+          "flavor": "……握住我的手。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] 对目标施加1层[BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

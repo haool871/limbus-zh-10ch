@@ -1,0 +1,116 @@
+{
+  "dataList": [
+    {
+      "id": "coupon_InputField_block",
+      "content": "无法输入兑换码"
+    },
+    {
+      "id": "coupon_InputField",
+      "content": "请在此处输入兑换码"
+    },
+    {
+      "id": "coupon_popup_title",
+      "content": "输入兑换码"
+    },
+    {
+      "id": "coupon_popup_desc",
+      "content": "- 兑换码只包含大写字母和数字。\n- 每个账户只能使用同一兑换码一次。\n- 超过有效期的兑换码无法兑换。\n- 如果短时间内多次兑换失败，兑换码的使用可能会在一定时间内受到限制。"
+    },
+    {
+      "id": "coupon_use_failed_2",
+      "content": "兑换码无效。"
+    },
+    {
+      "id": "coupon_use_failed_3",
+      "content": "兑换码无效。"
+    },
+    {
+      "id": "coupon_use_failed_4",
+      "content": "兑换码已过期。"
+    },
+    {
+      "id": "coupon_use_failed_5",
+      "content": "兑换码已被使用。"
+    },
+    {
+      "id": "coupon_use_failed_6",
+      "content": "此兑换码已被使用。"
+    },
+    {
+      "id": "coupon_use_failed_7",
+      "content": "连续失败次数过多，{0}前禁止使用兑换码。"
+    },
+    {
+      "id": "coupon_InputField_block_desc",
+      "content": "{0}前禁止使用兑换码"
+    },
+    {
+      "id": "coupon_use_failed_unknown",
+      "content": "发生未知错误。"
+    },
+    {
+      "id": "promotion_code_btn",
+      "content": "会员码"
+    },
+    {
+      "id": "promotion_popup_title",
+      "content": "会员码"
+    },
+    {
+      "id": "promotion_popup_desc",
+      "content": "点击下方按钮即可查看会员码。"
+    },
+    {
+      "id": "promotion_issue_btn",
+      "content": "发放兑换码"
+    },
+    {
+      "id": "promotion_code_empty",
+      "content": "您还没有查看过兑换码。"
+    },
+    {
+      "id": "promotion_issue_failed_condition",
+      "content": "不满足条件，无法查看兑换码。"
+    },
+    {
+      "id": "promotion_issue_failed_unknown",
+      "content": "发生未知错误。"
+    },
+    {
+      "id": "promotion_copy_btn",
+      "content": "复制"
+    },
+    {
+      "id": "promotion_copy_success",
+      "content": "兑换码已复制。"
+    },
+    {
+      "id": "promotion_issue_failed_shutdown",
+      "content": "会员码查询期限已结束。"
+    },
+    {
+      "id": "promotion_issue_failed_closed",
+      "content": "会员码发放期限已结束。"
+    },
+    {
+      "id": "promotion_check_btn",
+      "content": "确认兑换码"
+    },
+    {
+      "id": "promotion_consent_title",
+      "content": "个人信息收集及使用同意"
+    },
+    {
+      "id": "promotion_consent_desc",
+      "content": "请同意为发放会员码而收集及使用个人信息。"
+    },
+    {
+      "id": "promotion_consent_confirm_btn",
+      "content": "同意"
+    },
+    {
+      "id": "promotion_issued_check_failed",
+      "content": "未能确认发放与否。请稍后再试。"
+    }
+  ]
+}

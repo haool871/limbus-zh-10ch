@@ -1,0 +1,24 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_denim_baggar",
+      "displayName": "牛仔布钱包"
+    },
+    {
+      "key": "swarm_leather_mutt",
+      "displayName": "真皮手套"
+    },
+    {
+      "key": "swarm_needle_leather_mutt",
+      "displayName": "针垫手套"
+    },
+    {
+      "key": "swarm_shopper_a",
+      "displayName": "绝望的褐派"
+    },
+    {
+      "key": "swarm_shopper_b",
+      "displayName": "焦躁的褐派"
+    }
+  ]
+}

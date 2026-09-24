@@ -1,0 +1,40 @@
+{
+  "dataList": [
+    {
+      "key": "swarm_b_3_leather_ghost",
+      "displayName": "被驯服的皮革"
+    },
+    {
+      "key": "swarm_horizontal_hide_b3",
+      "displayName": "爬行的皮革"
+    },
+    {
+      "key": "swarm_leather_mutt_b3",
+      "displayName": "真皮手套"
+    },
+    {
+      "key": "swarm_b3_larouge_1st",
+      "displayName": "红派店员[阳光]"
+    },
+    {
+      "key": "swarm_b3_larouge_2nd",
+      "displayName": "红派店员[阳光]"
+    },
+    {
+      "key": "swarm_b3_larouge_3rd",
+      "displayName": "红派店员[阳光]"
+    },
+    {
+      "key": "swarm_b3_golden_mutt",
+      "displayName": "真皮手套"
+    },
+    {
+      "key": "swarm_b3_needle",
+      "displayName": "针插"
+    },
+    {
+      "key": "swarm_b3_overhide",
+      "displayName": "聚成一团爬行的皮革"
+    }
+  ]
+}
