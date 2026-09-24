@@ -32,12 +32,12 @@
 
 三种方式，选一种即可（内容完全一致）：
 
-**方式 A：从 Releases 下载（推荐，最简单）**
+**方式 A：从 Releases 下载**
 
 打开 **[最新版本 Releases](https://github.com/haool871/limbus-zh-10ch/releases/latest)**，
 下载 `Limbus-zh-10ch-v1-patch.zip` 并解压。
 
-**方式 B：下载仓库 ZIP**
+**方式 B：下载仓库 ZIP（推荐，最简单）**
 
 在上方 **code** 绿色小按钮，点击后下载最新版的 `(zip)`，解压，取里面的 `patch/` 文件夹。
 
